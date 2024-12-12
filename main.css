@@ -10,13 +10,14 @@ header li {
 
 body > header{
     background-color:rgb(14, 116, 14) ;
+    border-bottom: 4px dashed black;
     
 }
 
 header .topo{
     
     display: flex;
-    align-items: center;
+    align-items: first baseline;
     justify-content: space-between;
 
     padding-bottom: 12px;
@@ -32,10 +33,11 @@ header .topo{
     margin-right: 8px;
     text-decoration: none;
     color:black;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 7px;
     padding: 5px;
     vertical-align: center;
+    font-weight:650;
 }
 
 .container {
@@ -63,8 +65,8 @@ h2, .articles article{
 
 h2{
     text-align: center;
-    margin-top: 55px;
-    margin-bottom: 35px;
+    margin-top: 75px;
+    margin-bottom: 33px;
     text-decoration:underline;
 }
 
@@ -80,6 +82,51 @@ footer{
     background-color:rgb(14, 116, 14) ;
     margin-top:33px;
     padding: 22px;
+    border-top: 4px dashed black;
+}
+
+p:last-child{
+    display:inline;
+    font-weight: 450;
+}
+
+body{
+    background-color:#6B8E23 ;
+}
+
+body > header li a:hover {
+    background-color:rgb(15, 144, 15) 
+}
+
+.container .articles {
+    background-color: white;
+    border: 12px white solid;
+    border-radius: 12px;
+}
+
+legend{
+    width: 120px;
+    margin: 0 auto;
+    font-size:medium;
+    text-align:center;
+}
+
+fieldset{
+    border:4px solid rgb(14,116,14);
+    border-right:none;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 9px;
+    margin-top: 75px;
+}
+
+#sports fieldset{
+    margin-top: 12px;
+}
+
+
+#education .articles {
+    margin-bottom : 90px;
 }
 
 
